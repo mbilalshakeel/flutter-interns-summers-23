@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi_a2_muhammad_bilal/login_screen/fi_a2_mbilal_loginpage.dart';
 import 'package:flutter_interns/sessions/session_1/s1_home.dart';
 
 void main(List<String> args) {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Summer Internship \'23',
-      home: S1Home(),
+     // home: S1Home(),
+      home:BilalLoginPage(),
     );
   }
 }
