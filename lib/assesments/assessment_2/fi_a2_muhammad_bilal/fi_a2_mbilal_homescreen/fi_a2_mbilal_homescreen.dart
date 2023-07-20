@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_interns/assesments/assessment_2/fi_a2_muhammad_bilal/fi_a2_mbilal_homescreen/fi_a2_mbilal_homecontainer.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi_a2_muhammad_bilal/fi_a2_mbilal_homescreen/widgets/fi_a2_mbilal_bottombar.dart';
+import 'package:flutter_interns/assesments/assessment_2/fi_a2_muhammad_bilal/fi_a2_mbilal_homescreen/widgets/fi_a2_mbilal_homecontainer.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class BilalHomeScreen extends StatefulWidget {
@@ -60,7 +61,7 @@ class _BilalHomeScreenState extends State<BilalHomeScreen> {
             ),
           ),
           const BilalHomeContainer(),
-
+          const BilalBottomBar(),
         ],
       ),
     );
