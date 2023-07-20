@@ -14,6 +14,7 @@ class BilalHomeScreen extends StatefulWidget {
 class _BilalHomeScreenState extends State<BilalHomeScreen> {
   @override
   List<String> pictures=['assets/man1.png','assets/girl2.png','assets/man1.png'];
+
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
@@ -48,7 +49,7 @@ class _BilalHomeScreenState extends State<BilalHomeScreen> {
                       borderRadius: BorderRadius.circular(40),
                       border: Border.all(
                         width: 3,
-                      color: Color(0xFFFA9884),
+                      color: const Color(0xFFFA9884),
                     ),
 
                     ),
