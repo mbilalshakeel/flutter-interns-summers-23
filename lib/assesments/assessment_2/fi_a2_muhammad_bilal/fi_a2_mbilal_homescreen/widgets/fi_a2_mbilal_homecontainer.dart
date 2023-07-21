@@ -8,10 +8,10 @@ class BilalHomeContainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(left: 27,top: 28,right: 26),
+      padding: const EdgeInsets.only(left: 27,top: 15,right: 26),
       child: Container(
         width:double.infinity,
-        height: 460,
+        height: 440,
         decoration: BoxDecoration(
           borderRadius:BorderRadius.circular(20),
           color: Color(0xFFFCFCFC),

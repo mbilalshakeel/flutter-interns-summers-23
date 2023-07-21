@@ -9,12 +9,12 @@ class BilalProfileScreen extends StatefulWidget {
 }
 
 class _BilalProfileScreenState extends State<BilalProfileScreen> {
-  @override
   List<String> text1 =['Photos','Followers','Follows'];
   List<String> text2 =['315','77.5k','500'];
   List<String> text3=['Photos','Video','Tagged'];
   List<String> picture=['assets/fi_a2_mbilal_assets/pic2.png','assets/fi_a2_mbilal_assets/pic3.png','assets/fi_a2_mbilal_assets/pic4.png'];
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
      body:Column(

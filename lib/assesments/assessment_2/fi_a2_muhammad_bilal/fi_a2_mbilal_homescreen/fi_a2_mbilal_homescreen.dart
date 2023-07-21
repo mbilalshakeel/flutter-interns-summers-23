@@ -12,9 +12,8 @@ class BilalHomeScreen extends StatefulWidget {
 }
 
 class _BilalHomeScreenState extends State<BilalHomeScreen> {
-  @override
   List<String> pictures=['assets/man1.png','assets/girl2.png','assets/man1.png'];
-
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
